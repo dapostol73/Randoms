@@ -3,4 +3,13 @@ $customLocation = "$customLocation\*"
 $curaLocation = 'C:\Program Files\Ultimaker Cura 5.0.0\share\cura'
 #$curaLocation = 'D:\temp\cura'
 $exclude = @('*.ps1')
-Copy-Item -Path $customLocation -Destination $curaLocation -Exclude $exclude -Force -Recurse 
+$output = Copy-Item -Path $customLocation -Destination $curaLocation -Exclude $exclude -Force -Recurse -PassThru
+
+if ($output)
+{
+    $output
+}
+else
+{
+    "Copy failure"
+} 
