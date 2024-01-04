@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura" version="1.3">
+  <metadata>
+    <name>
+      <brand>Overture</brand>
+      <material>PLA</material>
+      <color>Generic</color>
+      <label>PLA Pro</label>
+    </name>
+    <version>8</version>
+    <GUID>114b70bd-f64f-4bca-b9cb-6eca98751ecc</GUID>
+    <color_code>#445273</color_code>
+    <description>Eryone PLA Professional is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+  </metadata>
+  <properties>
+    <diameter>1.75</diameter>
+    <density>1.24</density>
+    <weight>1000</weight>
+  </properties>
+  <settings>
+    <setting key="heated bed temperature">60.0</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="print temperature">220.0</setting>
+    <setting key="retraction amount">6.5</setting>
+    <setting key="retraction speed">45.0</setting>
+    <setting key="standby temperature">175.0</setting>
+    <machine>
+      <machine_identifier manufacturer="Eryone" product="eryone_thinker_direct" />
+      <setting key="retraction amount">0.3</setting>
+      <setting key="retraction speed">30.0</setting>
+      <cura:setting key="material_linear_advance_factor">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
+    </machine>
+  </settings>
+</fdmmaterial>
