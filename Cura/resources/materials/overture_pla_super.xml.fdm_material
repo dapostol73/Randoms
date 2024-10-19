@@ -5,17 +5,17 @@
       <brand>Overture</brand>
       <material>PLA</material>
       <color>Generic</color>
-      <label>PLA Pro</label>
+      <label>Super PLA+</label>
     </name>
     <version>8</version>
     <GUID>114b70bd-f64f-4bca-b9cb-6eca98751ecc</GUID>
-    <color_code>#445273</color_code>
-    <description>Overture PLA Professional is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <color_code>#A34236</color_code>
+    <description>Overture Super PLA+ is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
   </metadata>
   <properties>
     <diameter>1.75</diameter>
-    <density>1.24</density>
+    <density>1.21</density>
     <weight>1000</weight>
   </properties>
   <settings>
@@ -25,11 +25,12 @@
     <setting key="retraction amount">6.5</setting>
     <setting key="retraction speed">45.0</setting>
     <setting key="standby temperature">175.0</setting>
+    <cura:setting key="material_shrinkage_percentage">100.26</cura:setting>
     <machine>
       <machine_identifier manufacturer="Eryone" product="eryone_thinker_direct" />
       <setting key="retraction amount">0.3</setting>
       <setting key="retraction speed">30.0</setting>
-      <cura:setting key="material_linear_advance_factor">0.042</cura:setting>
+      <cura:setting key="material_linear_advance_factor">0.02</cura:setting>
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
