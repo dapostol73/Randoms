@@ -33,5 +33,13 @@
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
+    <machine>
+      <machine_identifier manufacturer="Voron" product="voron2_350" />
+      <setting key="retraction amount">0.25</setting>
+      <setting key="retraction speed">35.0</setting>
+      <cura:setting key="material_linear_advance_factor">0.048</cura:setting>
+      <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
+    </machine>
   </settings>
 </fdmmaterial>
