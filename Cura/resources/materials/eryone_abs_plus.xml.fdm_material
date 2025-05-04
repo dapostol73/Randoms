@@ -27,13 +27,19 @@
     <setting key="standby temperature">175.0</setting>
     <machine>
       <machine_identifier manufacturer="Eryone" product="eryone_thinker_direct" />
-      <setting key="retraction amount">0.6</setting>
+      <setting key="retraction amount">0.3</setting>
       <setting key="retraction speed">60.0</setting>
+      <cura:setting key="material_linear_advance_factor">0.042</cura:setting>
+      <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Voron" product="voron2_350" />
-      <setting key="retraction amount">0.6</setting>
+      <setting key="retraction amount">0.3</setting>
       <setting key="retraction speed">60.0</setting>
+      <cura:setting key="material_linear_advance_factor">0.042</cura:setting>
+      <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
   </settings>
 </fdmmaterial>
