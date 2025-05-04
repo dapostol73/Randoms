@@ -27,12 +27,12 @@
     <setting key="standby temperature">175.0</setting>
     <machine>
       <machine_identifier manufacturer="Eryone" product="eryone_thinker_direct" />
-      <setting key="retraction amount">0.7</setting>
+      <setting key="retraction amount">0.6</setting>
       <setting key="retraction speed">60.0</setting>
     </machine>
     <machine>
       <machine_identifier manufacturer="Voron" product="voron2_350" />
-      <setting key="retraction amount">0.7</setting>
+      <setting key="retraction amount">0.6</setting>
       <setting key="retraction speed">60.0</setting>
     </machine>
   </settings>
