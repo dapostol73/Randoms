@@ -5,7 +5,7 @@
       <brand>Eryone</brand>
       <material>TPU</material>
       <color>Generic</color>
-      <label>TPU</label>
+      <label>TPU 95A</label>
     </name>
     <version>8</version>
     <GUID>ff52b30e-5740-4f70-a7b5-8c436fc9954f</GUID>
@@ -29,14 +29,16 @@
       <machine_identifier manufacturer="Eryone" product="eryone_thinker_direct" />
       <setting key="retraction amount">0.35</setting>
       <setting key="retraction speed">35.0</setting>
+      <cura:setting key="material_linear_advance_enable">true</cura:setting>
       <cura:setting key="material_linear_advance_factor">0.225</cura:setting>
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
     <machine>
-      <machine_identifier manufacturer="Voron" product="voron2_350" />
+      <machine_identifier manufacturer="VoronDesign" product="voron24r2_350" />
       <setting key="retraction amount">0.35</setting>
       <setting key="retraction speed">35.0</setting>
+      <cura:setting key="material_linear_advance_enable">true</cura:setting>
       <cura:setting key="material_linear_advance_factor">0.225</cura:setting>
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>

@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "Voron2.4R2 350",
+    "inherits": "voron24r2_base",
+    "metadata":
+    {
+        "visible": true,
+        "platform": "voron2_350_bed.3mf"
+    },
+    "overrides":
+    {
+        "machine_depth": { "default_value": 350 },
+        "machine_height": { "default_value": 350 },
+        "machine_name": { "default_value": "VORON24R2 350" },
+        "machine_width": { "default_value": 350 }
+    }
+}
