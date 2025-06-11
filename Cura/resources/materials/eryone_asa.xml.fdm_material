@@ -21,7 +21,7 @@
   <settings>
     <setting key="heated bed temperature">100.0</setting>
     <setting key="print cooling">50.0</setting>
-    <setting key="print temperature">265.0</setting>
+    <setting key="print temperature">270.0</setting>
     <setting key="retraction amount">4</setting>
     <setting key="retraction speed">80.0</setting>
     <setting key="standby temperature">175.0</setting>
@@ -38,7 +38,7 @@
     </machine>
     <machine>
       <machine_identifier manufacturer="VoronDesign" product="voron24r2_350" />
-      <setting key="retraction amount">0.3</setting>
+      <setting key="retraction amount">0.25</setting>
       <setting key="retraction speed">30.0</setting>
       <cura:setting key="material_linear_advance_enable">false</cura:setting>
       <cura:setting key="material_linear_advance_factor">0.001</cura:setting>
