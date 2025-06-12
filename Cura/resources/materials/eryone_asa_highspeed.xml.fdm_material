@@ -5,12 +5,12 @@
       <brand>Eryone</brand>
       <material>ABS</material>
       <color>Generic</color>
-      <label>ASA</label>
+      <label>ASA HS</label>
     </name>
     <version>8</version>
     <GUID>bb6c4c0b-01b3-41d9-9b97-86b538710c88</GUID>
     <color_code>#8dc29a</color_code>
-    <description>Eryone ASA Tough and durable. Good for mechanical parts. ASA has excellent weather resistance, outstanding UV(ultraviolet) resistance, water resistance, thermal stability up 95ºC, and mechanical performance</description>
+    <description>Eryone High Speed ASA Tough and durable. Good for mechanical parts. ASA has excellent weather resistance, outstanding UV(ultraviolet) resistance, water resistance, thermal stability up 95ºC, and mechanical performance</description>
     <adhesion_info>Use glue, to avoid chipping of the glass.</adhesion_info>
   </metadata>
   <properties>
@@ -32,7 +32,7 @@
       <setting key="retraction amount">0.3</setting>
       <setting key="retraction speed">30.0</setting>
       <cura:setting key="material_linear_advance_enable">false</cura:setting>
-      <cura:setting key="material_linear_advance_factor">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor">0.035</cura:setting>
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
@@ -41,7 +41,7 @@
       <setting key="retraction amount">0.25</setting>
       <setting key="retraction speed">30.0</setting>
       <cura:setting key="material_linear_advance_enable">false</cura:setting>
-      <cura:setting key="material_linear_advance_factor">0.001</cura:setting>
+      <cura:setting key="material_linear_advance_factor">0.035</cura:setting>
       <cura:setting key="material_linear_advance_factor_layer_0">0.001</cura:setting>
       <cura:setting key="material_linear_advance_factor_topbottom">0.001</cura:setting>
     </machine>
