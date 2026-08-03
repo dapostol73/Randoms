@@ -1,5 +1,5 @@
 $scriptLocation = "$PSScriptRoot\*"
-$curaLocation = 'C:\Program Files\Ultimaker Cura 5.10.2\share\cura'
+$curaLocation = 'C:\Program Files\Ultimaker Cura 5.13.0\share\cura'
 #$curaLocation = 'D:\temp\cura'
 $exclude = @('*.ps1', '*.py')
 $output = Copy-Item -Path $scriptLocation -Destination $curaLocation -Exclude $exclude -Force -Recurse -PassThru

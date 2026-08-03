@@ -1,0 +1,26 @@
+Flash new klipper with Katapult (https://canbus.esoterical.online/)
+BigTreeTech Octopus https://canbus.esoterical.online/mainboard_flashing/common_hardware/BigTreeTech%20Octopus/README.html
+SB2209 (RP2040) https://canbus.esoterical.online/toolhead_flashing/common_hardware/BigTreeTech%20SB2209%20(RP2040)/README.html
+
+cd ~/klipper
+git pull
+sudo service klipper stop
+
+# Main Board OctopusSTM32F446 #
+make menuconfig
+make clean
+make
+python3 ~/katapult/scripts/flashtool.py -i can0 -r -u 09e3bf5dd53c
+python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_stm32f446xx_54004F000951303532383235-if00
+
+# Toolhead SBB2009 #
+make menuconfig
+make clean
+make
+python3 ~/katapult/scripts/flashtool.py -i can0 -r -u 6aad7102216e
+python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/klipper/out/klipper.bin -u 6aad7102216e
+sudo service klipper start
+
+
+# Cartographer Firmware # 
+python3 ~/katapult/scripts/flashtool.py -i can0 -f ~/cartographer_firmware/firmware/v2-v3/survey/6.1.0/CartographerV3_6.1.0_CAN_1M_full_8kib_offset.bin -u 2a9a13cfbd4f
